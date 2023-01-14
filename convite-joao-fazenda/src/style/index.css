@@ -1,0 +1,28 @@
+body {
+  /* background-color: #000000; */
+  background-image: url("../assets/shine-gif-8.gif");
+}
+
+.coluna {
+  border: 1px solid
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.typing {
+  font-size: 2em;
+  padding: 1em;
+  color: #FFFFFF;
+  
+}
+
+.font-bold{
+  font-family: 'Fira Mono', monospace;
+  display: block;
+  padding-left: 18vh;
+  margin-top: 2px;
+  color: #ffffff
+}
