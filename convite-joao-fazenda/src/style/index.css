@@ -1,6 +1,6 @@
 body {
-  /* background-color: #000000; */
-  background-image: url("../assets/shine-gif-8.gif");
+  background-color: #000000;  
+  /* background-image: url("../assets/shine-gif-8.gif"); */
 }
 
 .coluna {
@@ -19,10 +19,57 @@ body {
   
 }
 
-.font-bold{
-  font-family: 'Fira Mono', monospace;
-  display: block;
-  padding-left: 18vh;
-  margin-top: 2px;
-  color: #ffffff
+.textoApresentacao{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 40px;
+  height: 120px;
+  padding: 50px;
+}
+
+.input{
+  width: 50%;
+  background: none;
+  border-width: 0px 0 2px 0;
+  padding: 20px;
+  color: #FFFFFF;
+}
+
+textarea:focus, input:focus, select:focus {
+  outline: 0;
+} 
+
+.questionario{
+  color: #FFFFFF;
+  padding: 50px;
+  text-align: center;
+}
+
+.labelQuest{
+  padding: 15px;
+}
+
+.botaoEnviar{
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.localizacao{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  height: 50px;
+  padding: 30px;
+
+}
+
+.cardapio{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+
 }

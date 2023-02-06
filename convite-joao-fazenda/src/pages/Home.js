@@ -1,21 +1,33 @@
 import MaquinaDeEscrever from '../component/MaquinaDeEscrever';
-import Inputs from '../component/Inputs';
+import Quest from '../component/Quest';
 import '../style/index.css';
-import { Grid } from '@mui/material';
 
 
 function Home() {
   return (
     <>
-      <Grid item md={2} xs={12} sm={12} style={{ paddingTop: 40 }}></Grid>
-      <div className="bg-[#080713] flex justify-center items-center h-screen w-full text-2xl">
-        <h1 className="font-bold">
-          <span className="text-3xl">
+      <div className="textoApresentacao">
+        <MaquinaDeEscrever text="Olá! Venho te convidar para a minha janta de formatura que será realizada no dia 11/03/2023" />
+      </div>
 
-            <MaquinaDeEscrever style={{ display: "fixed" }} text="Olá! Venho te convidar para a minha janta de formatura que será realizada no dia 05/03aaaaaaaaaaaaaaaaaa" delay={1300} />
-          </span>
-        </h1>
-        <Inputs delay={1400} />
+    <div className='localizacao'>
+      <p className='linkEndereco'>
+      <a href="https://youtube.com/AnaZorzan" target="_blank"> Localização: Rua blábláblá </a>
+      </p>
+    </div>
+
+    <div className='cardapio'>
+      <p>Para comer, terá rodizio de pizza <br/> Traga o seu caneco para tomar um chopp giladuuu</p>
+    </div>
+
+
+
+
+
+
+
+      <div  className="questionario">
+        <Quest/>
       </div>
     </>
   );
